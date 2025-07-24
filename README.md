@@ -32,7 +32,7 @@ This isn’t a no-code solution. We’ve written actual code to connect the chat
 
 We documented the full process in a detailed YouTube video. Watch here:
 
-[![Watch the full walkthrough on YouTube](https://img.youtube.com/vi/VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_HERE)
+[![Watch the full walkthrough on YouTube](https://img.youtube.com/vi/LeEBFmJ8jm8/0.jpg)](https://youtu.be/LeEBFmJ8jm8)
 
 ---
 
