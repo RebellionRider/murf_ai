@@ -135,7 +135,7 @@ function GPTForm() {
 
   return (
     <div className="gpt-form">
-      <div className="gpt-form__heading">Murf Assistant</div>
+      <div className="gpt-form__heading">My 1st AI App</div>
       <div className="gpt-form__queries">
         {gptQueries.length > 0 ? (
           gptQueries?.map((gptQuery, index) => {

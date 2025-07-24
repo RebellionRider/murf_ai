@@ -13,10 +13,18 @@ type GenerateChatGPTResponseBody = {
   messages: ChatGPTMessage[];
 };
 
+// const openai = new OpenAI({
+//   apiKey: import.meta.env.VITE_MURF_OPENAI_API_KEY as string,
+//   dangerouslyAllowBrowser: true,
+// });
+
+
+
 const openai = new OpenAI({
-  apiKey: import.meta.env.VITE_MURF_OPENAI_API_KEY as string,
-  dangerouslyAllowBrowser: true,
+  apiKey: import.meta.env.VITE_OPENAI_API_KEY as string,
+  dangerouslyAllowBrowser: true, // required to make it work in frontend
 });
+
 
 // export async function generateGPTResponse({ prompt }: GenerateGPTResponseBody) {
 //   const completion = await openai.chat.completions.create({
